@@ -1,0 +1,98 @@
+#login{
+  padding:0 !important;
+}
+#login h1 a {
+  background-image: url(/wp-content/uploads/webco-logo.svg);
+  background-size: 70%;
+  margin: 30px auto 10px;
+  width: 100%;
+}
+/* Icon Font */
+
+@font-face {
+  font-family: 'industries';
+  src:  url('fonts/industries.eot?5o4r5k');
+  src:  url('fonts/industries.eot?5o4r5k#iefix') format('embedded-opentype'),
+    url('fonts/industries.ttf?5o4r5k') format('truetype'),
+    url('fonts/industries.woff?5o4r5k') format('woff'),
+    url('fonts/industries.svg?5o4r5k#industries') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'industries' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+	color: #172860;
+	font-size: 3em;
+  position: absolute;
+  z-index: -1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-forklift{top: 50%; left: 20%; font-size: 7em;}
+.icon-process{ top: 100px; }
+.icon-pump{ top: 150px; }
+.icon-truck{ top: 200px; }
+.icon-geothermal{ top: 250px; }
+.icon-power{ top: 50px; left: 100px; }
+.icon-chemical{ top: 50px; left: 150px; }
+.icon-agriculture{ top: 50px; left: 200px; }
+
+.icon-desalination:before {
+  content: "\e901";
+}
+.icon-chemical:before {
+  content: "\e900";
+}
+.icon-flags:before {
+  content: "\e902";
+}
+.icon-forklift:before {
+  content: "\e906";
+}
+.icon-geothermal:before {
+  content: "\e907";
+}
+.icon-housing:before {
+  content: "\e908";
+}
+.icon-hrsg:before {
+  content: "\e91b";
+}
+.icon-oil:before {
+  content: "\e91c";
+}
+.icon-power:before {
+  content: "\e91d";
+}
+.icon-process:before {
+  content: "\e91e";
+}
+.icon-process2:before {
+  content: "\e91f";
+}
+.icon-pump:before {
+  content: "\e920";
+}
+.icon-server:before {
+  content: "\e921";
+}
+.icon-spoke:before {
+  content: "\e922";
+}
+.icon-tractor:before {
+  content: "\e923";
+}
+.icon-truck:before {
+  content: "\e924";
+}
